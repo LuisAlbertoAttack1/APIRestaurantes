@@ -1,0 +1,19 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "API restaurante creacion personal",
+  "main": "index.js",
+  "author": "juanC",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
+  }
+}
